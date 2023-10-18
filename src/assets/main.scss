@@ -21,10 +21,13 @@ header, main {
 }
 body {
     background-color: $light-grayish-blue-1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
 }
 .mainWrapper {
     max-width: 700px;
