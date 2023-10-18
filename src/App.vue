@@ -19,7 +19,7 @@ import { computed } from 'vue';
 import Notification from './components/Notifications.vue'
 const eventObjects = ref([
   {
-    img: '../src/assets/images/avatar-mark-webber.webp',
+    img: '/images/avatar-mark-webber.webp',
     isRead: false,
     type: 'reacted',
     userName : 'Mark Webber ',
@@ -28,7 +28,7 @@ const eventObjects = ref([
     time : '1m ago'
   },
   {
-    img: '../src/assets/images/avatar-angela-gray.webp',
+    img: '/images/avatar-angela-gray.webp',
     isRead: false,
     type: ' followed',
     userName : 'Angela Gray ',
@@ -36,7 +36,7 @@ const eventObjects = ref([
     time : '5m ago'
   },
   {
-    img: '../src/assets/images/avatar-jacob-thompson.webp', 
+    img: '/images/avatar-jacob-thompson.webp', 
     isRead: false,
     type: 'group',
     userName : 'Jacob Thompson ',
@@ -45,7 +45,7 @@ const eventObjects = ref([
     time : '1 day ago'
   },
   {
-    img: '../src/assets/images/avatar-rizky-hasanuddin.webp',
+    img: '/images/avatar-rizky-hasanuddin.webp',
     isRead: true,
     type: 'message',
     userName : 'Rizky Hasanuddin ',
@@ -54,16 +54,16 @@ const eventObjects = ref([
     message : "Hello, I wanted to express my gratitude for establishing the Chess Club. I've been a member for a few weeks, and I'm already thoroughly enjoying my time while also seeing improvements in my game."
   },
   {
-    img: '../src/assets/images/avatar-kimberly-smith.webp',
+    img: '/images/avatar-kimberly-smith.webp',
     isRead: true,
     type: 'comment',
     userName : 'Kimberly Smith ',
     events : ' commented on your picture',
-    targetComment: '../src/assets/images/image-chess.webp',
+    targetComment: '/images/image-chess.webp',
     time : '1 week ago'
   },
   {
-    img: '../src/assets/images/avatar-nathan-peterson.webp',
+    img: '/images/avatar-nathan-peterson.webp',
     isRead: true,
     type: 'reacted',
     userName : 'Nathan Peterson ',
@@ -72,7 +72,7 @@ const eventObjects = ref([
     time : '2 weeks ago'
   },
   {
-    img: '../src/assets/images/avatar-anna-kim.webp',
+    img: '/images/avatar-anna-kim.webp',
     isRead: true,
     type: 'group',
     targetJoin: 'Chess Club',
