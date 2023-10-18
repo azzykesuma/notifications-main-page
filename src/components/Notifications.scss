@@ -1,0 +1,69 @@
+@import "../assets/main.scss";
+.eventWrapper {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    .innerNotifications {
+        font-size: 14px;
+    }
+    .notificationContent {
+        color: $dark-grayish-blue;
+        p {
+            display: inline;
+        }
+    }
+    .targetReaction {
+        color: $dark-grayish-blue;
+        cursor: pointer;
+        &:hover {
+            color: $blue;
+        }
+    }
+    .targetJoin {
+        color: $blue;
+    }
+    .imageNotifications {
+        width: 40px;
+        height: 40px;
+    }
+    .time {
+        color: $grayish-blue;
+        padding-top: 5px;
+    }
+    .profileName {
+        color: $very-dark-blue;
+        font-weight: 800;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            color: $blue;
+        }
+    }
+    .unreadPing {
+        background-color: $red;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .messageWrapper {
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 3px;
+        border:1px solid $light-grayish-blue-2;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        p {
+            color: $dark-grayish-blue;
+        }
+        &:hover {
+            background-color: $light-grayish-blue-2;
+        }
+    }
+}
+.isUnread {
+    background-color: $very-light-grayish-blue;
+}
